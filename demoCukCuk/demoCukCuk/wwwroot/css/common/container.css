@@ -2,8 +2,25 @@
 }
 
 .container{
-    float: left;
-    width: 200px;
+    position: relative;
+    width: 100%;
     height: calc(100vh - 60px);
-    border: 1px solid #ff6a00
+    border: 1px solid #ff6a00;
+    display: flex;
+    
+}
+
+/*Menu*/
+.menu {
+    width: 200px;
+    background-color: #ff6a00;
+    height: 100%;
+}
+
+/*Content*/
+.content {
+    width: calc(100% - 200px);
+    background-color: antiquewhite;
+    height: 100%;
+    
 }
