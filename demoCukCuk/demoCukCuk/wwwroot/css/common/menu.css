@@ -1,0 +1,39 @@
+﻿.menu {
+    background-color: #0094ff;
+}
+
+    .menu .menu-item{
+        display:flex;
+        width:100%;
+        height:40px;
+        align-items: center;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+
+    .menu .menu-item:hover{
+        background-color: #ffd800;
+    }
+
+    .menu-item .menu-item-icon {
+        background-image: url('../../content/images/iconmenu.png');
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .menu-item .menu-item-text {
+        color: white;
+        line-height:40px;
+    }
+
+
+    .icon-report {
+        background-position: -4px -40px;
+    }
+
+    .icon-setting {
+        background-position: -2px -234px;
+    }

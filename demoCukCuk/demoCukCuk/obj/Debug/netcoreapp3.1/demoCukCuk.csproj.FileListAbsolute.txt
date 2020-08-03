@@ -18,3 +18,23 @@ C:\Users\dvcuong1\source\repos\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\dem
 C:\Users\dvcuong1\source\repos\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\demoCukCuk.dll
 C:\Users\dvcuong1\source\repos\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\demoCukCuk.pdb
 C:\Users\dvcuong1\source\repos\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\demoCukCuk.genruntimeconfig.cache
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\bin\Debug\netcoreapp3.1\appsettings.Development.json
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\bin\Debug\netcoreapp3.1\appsettings.json
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\bin\Debug\netcoreapp3.1\demoCukCuk.exe
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\bin\Debug\netcoreapp3.1\demoCukCuk.deps.json
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\bin\Debug\netcoreapp3.1\demoCukCuk.runtimeconfig.json
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\bin\Debug\netcoreapp3.1\demoCukCuk.runtimeconfig.dev.json
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\bin\Debug\netcoreapp3.1\demoCukCuk.dll
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\bin\Debug\netcoreapp3.1\demoCukCuk.pdb
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\demoCukCuk.csprojAssemblyReference.cache
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\demoCukCuk.AssemblyInfoInputs.cache
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\demoCukCuk.AssemblyInfo.cs
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\demoCukCuk.csproj.CoreCompileInputs.cache
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\demoCukCuk.MvcApplicationPartsAssemblyInfo.cache
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\demoCukCuk.RazorTargetAssemblyInfo.cache
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\staticwebassets\demoCukCuk.StaticWebAssets.Manifest.cache
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\staticwebassets\demoCukCuk.StaticWebAssets.xml
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\demoCukCuk.dll
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\demoCukCuk.pdb
+H:\project clone\demo\demo\demoCukCuk\demoCukCuk\obj\Debug\netcoreapp3.1\demoCukCuk.genruntimeconfig.cache

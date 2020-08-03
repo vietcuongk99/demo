@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dvcuong1\\source\\repos\\demoCukCuk\\demoCukCuk\\demoCukCuk.csproj": {}
+    "H:\\project clone\\demo\\demo\\demoCukCuk\\demoCukCuk\\demoCukCuk.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dvcuong1\\source\\repos\\demoCukCuk\\demoCukCuk\\demoCukCuk.csproj": {
+    "H:\\project clone\\demo\\demo\\demoCukCuk\\demoCukCuk\\demoCukCuk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dvcuong1\\source\\repos\\demoCukCuk\\demoCukCuk\\demoCukCuk.csproj",
+        "projectUniqueName": "H:\\project clone\\demo\\demo\\demoCukCuk\\demoCukCuk\\demoCukCuk.csproj",
         "projectName": "demoCukCuk",
-        "projectPath": "C:\\Users\\dvcuong1\\source\\repos\\demoCukCuk\\demoCukCuk\\demoCukCuk.csproj",
-        "packagesPath": "C:\\Users\\dvcuong1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dvcuong1\\source\\repos\\demoCukCuk\\demoCukCuk\\obj\\",
+        "projectPath": "H:\\project clone\\demo\\demo\\demoCukCuk\\demoCukCuk\\demoCukCuk.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "H:\\project clone\\demo\\demo\\demoCukCuk\\demoCukCuk\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dvcuong1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

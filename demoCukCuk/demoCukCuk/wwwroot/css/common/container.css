@@ -1,5 +1,4 @@
-﻿body {
-}
+﻿
 
 .container{
     position: relative;
@@ -8,19 +7,27 @@
     border: 1px solid #ff6a00;
     display: flex;
     
+    
 }
 
 /*Menu*/
 .menu {
     width: 200px;
-    background-color: #ff6a00;
     height: 100%;
 }
 
 /*Content*/
 .content {
     width: calc(100% - 200px);
-    background-color: antiquewhite;
     height: 100%;
-    
+    padding: 8px;
+    position: relative;
+}
+
+.content .content-header{
+    height: 40px;
+}
+
+.content .content-body{
+    height: calc(100% - 68px);
 }

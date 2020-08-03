@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9sOeEjymwx3Z+c5IIu1iyFicDoJlyqJ7gepM8W497IA+6rqDNInpYJfxVJ0ILnAbrJz4IcUeFHSZ9Ws6rFFmMQ==",
+  "dgSpecHash": "L3PyjbzOfexK8+QSXVDpLpQt2A0P7X/m8xzLORIBvgHS3KOta/yure9SNM2DnVYAHf5gYorCFfrNkNCfpbnuYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dvcuong1\\source\\repos\\demoCukCuk\\demoCukCuk\\demoCukCuk.csproj",
+  "projectFilePath": "H:\\project clone\\demo\\demo\\demoCukCuk\\demoCukCuk\\demoCukCuk.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dvcuong1\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
   ],
   "logs": []
 }

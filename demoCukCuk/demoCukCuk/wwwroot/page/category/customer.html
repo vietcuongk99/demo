@@ -4,7 +4,11 @@
     <meta charset="utf-8" />
     <title>Danh muc khach hang</title>
     <link href="../../css/common/header.css" rel="stylesheet" />
+    <link href="../../css/common/menu.css" rel="stylesheet" />
+    <link href="../../css/common/main.css" rel="stylesheet" />
     <link href="../../css/common/container.css" rel="stylesheet" />
+    <link href="../../css/common/toolbar.css" rel="stylesheet" />
+    <link href="../../css/common/grid.css" rel="stylesheet" />
 </head>
 <body>
     <div class="header">
@@ -23,8 +27,27 @@
         <div class="header-right"></div>
     </div>
     <div class="container">
-        <div class="menu"></div>
-        <div class="content"></div>
+        <div class="menu bg-primary">
+            <div class="menu-item">
+                <div class="menu-item-icon icon-setting"></div>
+                <div class="menu-item-text">Cài đặt</div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-icon icon-report"></div>
+                <div class="menu-item-text">Báo cáo</div>
+            </div>
+        </div>
+
+        <!--Content-->
+        <div class="content">
+            <div class="content-header">Danh mục > Tổng quan</div>
+            <div class="content-body">
+                <div class="toolbar">
+                    <button><i class="toolbar-item-icon"></i>Thêm</button>
+                </div>
+                <div class="grid"></div>
+            </div>
+        </div>
 
     </div>
 </body>
