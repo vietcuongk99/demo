@@ -1,7 +1,8 @@
 $(document).ready(function(){
     var customerJS = new CustomerJS();
+    
    
-})
+});
 
 function closeDialog() {
     
@@ -10,6 +11,7 @@ function closeDialog() {
 class CustomerJS {
     constructor() {
         this.loadData();
+    
     }
 
 
@@ -19,17 +21,17 @@ class CustomerJS {
     loadData() {
         var data = fakeData;
         $.each(data, function(index, item){
-            debugger;
+           
             var customerDataHTML = `<tr>
                                     <td>`+item.CustomerCode+`</td>
                                     <td>`+item.CustomerName+`</td>
                                     <td>`+item.CustomerBirthday+`</td>
                                     <td>`+item.CustomerMobilePhone+`</td>
-                                    <td>`+setCheckBox(item.is5FOODMember)+`</td>
+                                    
                                 </tr>`
 
         $('table#customerData').append(customerDataHTML);             
-        debugger           
+        
         })
     }
 
@@ -37,13 +39,14 @@ class CustomerJS {
     Create by: DVCUONG1 (4/8/2020) 
     */
     setCheckBox(value) {
-        if(value == "true") {
-            var checkbox = `<input type="checkbox" checked />`;
+        var checkis5FOOD = $(`<input type="checkbox" />`);
+        if(value) {
+            checkis5FOOD = checkis5FOOD.attr("checked", true);
         } else {
-            var checkbox = `<input type="checkbox" />`;
+            checkis5FOOD = checkis5FOOD.attr("checked", false);
         }
-        return checkbox;
-        debugger
+        return checkis5FOOD;
+     
         
     }
 }
@@ -55,7 +58,7 @@ var fakeData = [
         CustomerBirthday: "3/12/1999",
         CustomerPhoneNumber: "0968472466",
         CustomerDebitAmount: "100000",
-        is5FOODMember: "false",
+        is5FOODMember: false,
     },
     {
         CustomerCode: "KH01",
@@ -63,7 +66,7 @@ var fakeData = [
         CustomerBirthday: "3/12/1999",
         CustomerPhoneNumber: "0968472466",
         CustomerDebitAmount: "100000",
-        is5FOODMember: "true",
+        is5FOODMember: true,
     },
     {
         CustomerCode: "KH01",
@@ -71,7 +74,7 @@ var fakeData = [
         CustomerBirthday: "3/12/1999",
         CustomerPhoneNumber: "0968472466",
         CustomerDebitAmount: "100000",
-        is5FOODMember: "true",
+        is5FOODMember: false,
     },
     {
         CustomerCode: "KH01",
@@ -79,6 +82,6 @@ var fakeData = [
         CustomerBirthday: "3/12/1999",
         CustomerPhoneNumber: "0968472466",
         CustomerDebitAmount: "100000",
-        is5FOODMember: "true",
+        is5FOODMember: true,
     }
 ]
