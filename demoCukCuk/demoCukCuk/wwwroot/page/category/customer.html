@@ -8,6 +8,8 @@
     <link href="../../css/common/main.css" rel="stylesheet" />
     <link href="../../css/common/container.css" rel="stylesheet" />
     <link href="../../css/common/toolbar.css" rel="stylesheet" />
+    <link href="../../css/common/button.css" rel="stylesheet" />
+    <link href="../../css/common/dialog.css" rel="stylesheet" />
     <link href="../../css/common/grid.css" rel="stylesheet" />
 </head>
 <body>
@@ -43,12 +45,76 @@
             <div class="content-header">Danh mục > Tổng quan</div>
             <div class="content-body">
                 <div class="toolbar">
-                    <button><i class="toolbar-item-icon"></i>Thêm</button>
+                    <button>
+                        <div class="btn-icon btn-icon-add"></div>
+                        <div class="btn-text">Thêm</div>
+                    </button>
+                    <button>
+                        <div class="btn-icon btn-icon-edit"></div>
+                        <div class="btn-text">Sửa</div>
+                    </button>
+                    <button>
+                        <div class="btn-icon btn-icon-delete"></div>
+                        <div class="btn-text">Xóa</div>
+                    </button>
                 </div>
-                <div class="grid"></div>
+                <div class="grid">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Mã khách hàng</td>
+                                <td>Tên khách hàng</td>
+                                <td>Ngày sinh</td>
+                                <td>Số điện thoại</td>
+                                <td>Là thành viên 5FOOD</td>
+                            </tr>
+                            
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>KH0001</td>
+                                <td>Nguyễn Văn Mạnh1</td>
+                                <td>22/9/1989</td>
+                                <td>098989898</td>
+                                <td><input type="checkbox" checked /></td>
+                            </tr>
+                            <tr>
+                                <td>KH0002</td>
+                                <td>Nguyễn Văn Mạnh2</td>
+                                <td>22/9/1989</td>
+                                <td>098989898</td>
+                                <td><input type="checkbox" checked /></td>
+                            </tr>
+                            <tr>
+                                <td>KH0003</td>
+                                <td>Nguyễn Văn Mạnh3</td>
+                                <td>22/9/1989</td>
+                                <td>098989898</td>
+                                <td><input type="checkbox" checked /></td>
+                            </tr>
+                            <tr>
+                                <td>KH0004</td>
+                                <td>Nguyễn Văn Mạnh4</td>
+                                <td>22/9/1989</td>
+                                <td>098989898</td>
+                                <td><input type="checkbox" checked /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 
+    </div>
+    <div class="form-dialog">
+        <div class="dialog-modal"></div>
+        <div class="dialog">
+            <div class="dialog-titlebar">
+                <div class="title">Khách hàng</div>
+                <div class="btn-close">x</div>
+            </div>
+            <div class="dialog-body"></div>
+        </div>
     </div>
 </body>
 </html>

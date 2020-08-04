@@ -1,0 +1,20 @@
+﻿button .btn-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url('../../content/images/iconsprite.png');
+}
+
+button .btn-text{
+    line-height: 25px;
+    margin-left: 5px;
+}
+
+button .btn-icon.btn-icon-add {
+    background-position: -1px -2416px;
+}
+button .btn-icon.btn-icon-edit {
+    background-position: 0 -1872px;
+}
+button .btn-icon.btn-icon-delete {
+    background-position: -1px -2048px;
+}
